@@ -1,5 +1,18 @@
 # angular-quick-start
 
+https://angular.io/tutorial
+
+For some reason running ```ng serve``` on WSL2 didn't 
+live-reload while running on Powershell did.
+
+1. Hero Editor
+- Angular CLI is useful
+- pipes can be used to format data in template
+- two-way binding: input <--> model
+- do above with ngModel
+- add modules to AppModule
+- every component must be declared in exactly one NgModule
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
 
 ## Development server
