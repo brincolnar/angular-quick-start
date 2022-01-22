@@ -13,6 +13,17 @@ live-reload while running on Powershell did.
 - add modules to AppModule
 - every component must be declared in exactly one NgModule
 
+2. Display list
+- *ngFor directive to iterate a list
+- *ngIf to conditionally include or exclude a block of HTML.
+- toggle a CSS style class with a class binding.
+
+3. Create a feature component
+- created separate reusable component
+- used property binding to give parent control over the chidl
+- used @Input decorator to make hero property available for binding by parent component
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
 
 ## Development server
