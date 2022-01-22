@@ -5,7 +5,7 @@ https://angular.io/tutorial
 For some reason running ```ng serve``` on WSL2 didn't 
 live-reload while running on Powershell did.
 
-1. Hero Editor
+**1. Hero Editor**
 - Angular CLI is useful
 - pipes can be used to format data in template
 - two-way binding: input <--> model
@@ -13,16 +13,26 @@ live-reload while running on Powershell did.
 - add modules to AppModule
 - every component must be declared in exactly one NgModule
 
-2. Display list
+**2. Display list**
 - *ngFor directive to iterate a list
 - *ngIf to conditionally include or exclude a block of HTML.
 - toggle a CSS style class with a class binding.
 
-3. Create a feature component
+**3. Create a feature component**
 - created separate reusable component
 - used property binding to give parent control over the chidl
 - used @Input decorator to make hero property available for binding by parent component
 
+**4. Add Services**
+- refactored data access to the HeroService class
+- registered the HeroService as the provider of its service at the root level so that it can be injected anywhere in the application
+- used Angular Dependency Injection to inject it into a component
+- gave the HeroService get data method an asynchronous signature
+- discovered Observable and the RxJS Observable library
+- used RxJS of() to return an observable of mock heroes (Observable<Hero[]>)
+- component's ngOnInit lifecycle hook calls the HeroService method, not the constructor
+- created a MessageService for loosely-coupled communication between classes
+- HeroService injected into a component is created with another injected service, MessageService
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
 
