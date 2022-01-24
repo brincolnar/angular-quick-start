@@ -34,6 +34,16 @@ live-reload while running on Powershell did.
 - created a MessageService for loosely-coupled communication between classes
 - HeroService injected into a component is created with another injected service, MessageService
 
+**5. Add Navigation**
+- added Angular router to navigate among components
+- turned AppComponent into navigation shell with <a> link and <router-outlet>
+- configured the router in an AppRoutingModule
+- defined routes, a redirect route, and a parameterized route
+- used the routerLink directive in anchor elements
+- refactored a tightly-coupled master/detail view into a routed detail view
+- used router link parameters to navigate to the detail view of a user-selected hero
+- shared the HeroService among multiple components
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
 
 ## Development server
