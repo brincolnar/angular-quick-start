@@ -44,6 +44,14 @@ live-reload while running on Powershell did.
 - used router link parameters to navigate to the detail view of a user-selected hero
 - shared the HeroService among multiple components
 
+**6. Get data from a server**
+- added the necessary dependencies to use HTTP in the app
+- refactored HeroService to load heroes from a web API
+- extended HeroService to support post(), put(), and delete() methods
+- updated the components to allow adding, editing, and deleting of heroes
+- configured an in-memory web API
+- learned how to use observables
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
 
 ## Development server
